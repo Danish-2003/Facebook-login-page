@@ -1,0 +1,116 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@200;300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #f2f4f7;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 41%;
+    left:  52%;
+    transform: translate(-50%, -50%);
+}
+
+.text{
+    height: 350px;
+    width: 530px;
+    padding-right: 25px;
+  
+}
+.text .logo{
+    width: 301px;
+    height: 106px;
+    margin-top: 50px;
+}
+.text p{
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin-bottom: 5rem;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+.container form{
+    height: 348px;
+    width: 396px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.container form .input{
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    margin-bottom: 12px;
+    height: 51px;
+    width: 363px;
+    padding: 15px;
+    outline: none;
+    color: #c9cbcf;
+    border: 1px solid ;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.input input:focus{
+    border: 1px solid #1877f2;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    width: 364px;
+    height: 48px;
+    text-align: center;
+    background-color: #1877f2;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+}
+.forgot{
+    text-align: center;
+    margin: 15px;
+}
+.forgot a{
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 17px;
+    font-weight: 600;  
+}
+.new-acc{
+    background-color: #06b909;
+    border-radius: 5px;
+    color: white;
+    width: 192px;
+    height: 48px;
+    cursor: pointer;
+    margin: 26px auto;
+}
+
+.new-acc p{
+    text-align: center;
+    padding-top: 11px;
+    font-weight: 600;
+
+}
+form hr{
+    color: #f2f4f7;
+    background-color: #ffffff;
+    margin: 1rem;
+}
